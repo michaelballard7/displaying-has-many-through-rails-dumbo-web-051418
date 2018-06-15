@@ -29,7 +29,7 @@ Things get slightly more complicated when we talk about the relationship between
     <td> post_id </td>
     <td> user_id </td>
   </tr>
-  
+
   <tr>
     <td> 1 </td>
     <td> "I loved this post!" </td>
@@ -168,7 +168,7 @@ Because we've set up a join model, the interface will look almost identical. We 
 <% end %>
 ```
 
-## Conclusion
+## Conclusion-pass me 
 
 Displaying data via a `has_many, through` relationship looks identical to displaying data through a normal relationship. That's the beauty of abstraction –– all of the details about how our models are associated with each other get abstracted away, and we can focus simply on the presentation.
 
